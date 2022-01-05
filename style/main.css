@@ -23,6 +23,7 @@ header .container{
     align-items: center;
     justify-content: space-between;
     
+    
 }
 
 header .logo{
@@ -46,27 +47,27 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('https://image.tmdb.org/t/p/w500/fVzXp3NwovUlLe7fvoRynCmBPNc.jpg');
 
-    height:400px;
-    background-size:cover;
+    height:100vh;
+    background-size:100%;
  
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
 
 .filme-principal .descricao{
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 
 .filme-principal .titulo{
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
@@ -103,9 +104,9 @@ header nav a:hover{
 }
 
 .box-filme{
-    height: 100%;
-    width: 100%;
-    display: block;
+    height: 30%;
+    width: 30%;
+    display: flex;
     cursor: pointer;
 }
 
@@ -113,22 +114,3 @@ header nav a:hover{
 .carrosel-filmes{
     margin-top:5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
