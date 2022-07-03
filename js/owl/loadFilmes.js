@@ -31,9 +31,10 @@ async function loadMovies(){
           let div = document.createElement('div')
           div.className = "item"
           div.innerHTML=saida    
-
           filmes.appendChild(div)
+         
         }
+        
 
       }
     });
