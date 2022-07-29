@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
-
-    <!--responsividade-->
-    <link rel="stylesheet" href="style/responsive.css">
-
-    <!--owl css-->
-    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-
+   
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css"/> 
+   
+    <link rel="stylesheet" href="style/responsive.css"/>
+    <link rel="stylesheet" href="style/main.css"/>
+    <script src="node_modules/swiper/swiper-bundle.js"></script>
     
-
+    
     <title>NETFLIX CLONE</title>
 </head>
+
+
 <body>
     <header>
         <div class="container">
@@ -54,29 +53,28 @@
         </div>
     </main>
 
-
-    <div class="carrosel-filmes">
-        
-        <div id="filme" class="owl-carousel owl-theme" >
-                        
-        </div>
+    <!-- Slider main container -->
+<div class="swiper"  >
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper" id="filmes">
+      <!-- Slides -->
+      
     </div>
-    
-    
-    <script src="js/owl/loadFilmes.js"></script>
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-    <script src="js/owl/jquery.min.js"></script>
-    <script src="js/owl/owl.carousel.min.js"></script>
-    <script src="js/owl/setup.js"></script>
-    <script src="style/responsive.css"></script>
-   
-    
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
 
     
+        <script src="loadFilmes.js"></script>         
+        
+        <script src="initialize.js"></script>
+    </body>
     
-
-    
-</body>
-
-
 </html>

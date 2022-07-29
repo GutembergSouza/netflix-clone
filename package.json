@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@splidejs/splide": "^4.0.7",
+    "swiper": "^8.3.2",
+    "tiny-slider": "^2.9.4"
+  }
+}
