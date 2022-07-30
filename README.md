@@ -1,7 +1,7 @@
 # Netflix-clone
 Site clone da Netflix que aprendi no curso da Digital Innovation One
 Ministrado pelo professor Felipe Aguiar
-<br> Diretório de origem: [clone-netflix](https://github.com/felipeAguiarCode/netflix-code)
+<br> Diretório de origem: [clone-netflix](https://github.com/felipeAguiarCode/netflix-clone)
 
 ## Alterações
 - Neste projeto alterei o Slider (Owl) responsavel por implementar o carousel pelo Slider (Swiper)
