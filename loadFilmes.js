@@ -40,8 +40,6 @@ async function loadMovies(){
       }
     });
 
-    //https://api.themoviedb.org/4/list/1?api_key=aa496275075023e3767907289b1469e3&page=1
-
     xhr.open("GET", requestHeaderUri);
     xhr.setRequestHeader("content-type", "application/json;charset=utf-8");
     xhr.setRequestHeader("authorization", requestAuthorization);
