@@ -1,4 +1,4 @@
-# Netflix-clone
+# [Netflix-clone](https://gutembergsouza.github.io/netflix-clone/)
 Site clone da Netflix que aprendi no curso da Digital Innovation One
 Ministrado pelo professor Felipe Aguiar
 <br> Diretório de origem: [clone-netflix](https://github.com/felipeAguiarCode/netflix-clone)
